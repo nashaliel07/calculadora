@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculadora</title>
+  <link rel="stylesheet" href="./style.css">
+  <script src="display.js" type="text/javascript"></script>
+  <script src="calculadora.js" type="text/javascript"></script>
+  <script src="index.js" type="text/javascript" defer></script>
+</head>
+
+<body>
+  <header class="titulo">
+    <h1 class="texttitulo">CALCULADORA</h1>
+  </header>
+  <div class="contnedorCalcu">
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <div class="calcul">
+      <div class="display">
+        <div id="valorAnterior"></div>
+        <div id="valorActual"></div>
+      </div>
+      <button class="tecla" onclick="display.borrarTodo()">C</button>
+      <button onclick="display.borrar()">&larr;</button>
+      <button class="operador" value="dividir">%</button>
+      <button class="numero">7</button>
+      <button class="numero">8</button>
+      <button class="numero">9</button>
+      <button class="operador" value="multiplicar">X</button>
+      <button class="numero">4</button>
+      <button class="numero">5</button>
+      <button class="numero">6</button>
+      <button class="operador" value="restar">-</button>
+      <button class="numero">1</button>
+      <button class="numero">2</button>
+      <button class="numero">3</button>
+      <button class="operador" value="sumar">+</button>
+      <button class="tecla numero">0</button>
+      <button class="numero">.</button>
+      <button class="operador" value="igual">=</button>
+    </div>
+  </div>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <footer>
+    <img class="Log" src="./img/logo certus.png" alt="Logo">
+
+    <p class="parrafoFooter"> Creado por: <br>
+      - Nashaliel Duval Castillo <br> - Jeffer Alexander Villegas Gallegos
+      <br>
+      DERECHOS RESERBADOS
+    </p>
+  </footer>
+</body>
+
+</html>
